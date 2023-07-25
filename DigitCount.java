@@ -10,7 +10,7 @@ class DigitCount{
 		System.out.print("Enter the digit :");
 		int digit = sc.nextInt();
 
-		while(num != 0)
+		while(num != 0 && num>0)
 		{
 			rem=num%10;
 			num=num/10;
